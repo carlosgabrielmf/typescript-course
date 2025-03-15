@@ -10,7 +10,7 @@
     console.log(medicos2);
 
     // Se accede a los elementos de la forma que ya conocemos
-    console.log(medicos[0]);
+    medicos.forEach(m => console.log(m.toUpperCase()));
     
 
 
